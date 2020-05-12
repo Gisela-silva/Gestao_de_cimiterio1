@@ -20,7 +20,7 @@ $baseUrl = $asset->baseUrl;
     <title><?= Html::encode($this->title) ?></title>
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
-    <link rel="shortcut icon" href="<?= Url::to('@img/app/favicon.ico')?>">
+<!--    <link rel="shortcut icon" href="--><?//= Url::to('@img/app/favicon.ico')?><!--">-->
     <?php $this->head() ?>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
